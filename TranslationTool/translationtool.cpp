@@ -55,7 +55,7 @@ int TranslationTool::separateFiles()
 		for (int line = 0; line < nLines; line++)
 		{
 			inFile.getline(buffer, STRMAXLEN);
-			outFile[line] << buffer;
+			outFile[line] << buffer << endl;
 		}
 
 		inFile.getline(buffer, STRMAXLEN);
