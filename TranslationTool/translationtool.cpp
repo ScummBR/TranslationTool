@@ -37,7 +37,6 @@ int TranslationTool::separateFiles()
 
 	ifstream inFile;
 	ofstream *outFile = new ofstream[nLines];
-	string line;
 
 	inFile.open(files.begin()->c_str());
 
