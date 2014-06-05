@@ -49,17 +49,17 @@ int TranslationTool::separateFiles()
 
 	// -------------------- Begin
 
-	char buffer[256];
+	char buffer[STRMAXLEN];
 
 	while (!inFile.eof())
 	{
 		for (int line = 0; line < nLines; line++)
 		{
-			inFile.getline(buffer, 256);
+			inFile.getline(buffer, STRMAXLEN);
 			outFile[line] << buffer;
 		}
 
-		inFile.getline(buffer, 256);
+		inFile.getline(buffer, STRMAXLEN);
 	}
 
 	// -------------------- End

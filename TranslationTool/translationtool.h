@@ -1,6 +1,8 @@
 #ifndef TRANSLATIONTOOL_H_
 #define TRANSLATIONTOOL_H_
 
+#define STRMAXLEN 1024
+
 #include <iostream>
 #include <fstream>
 #include <string>
