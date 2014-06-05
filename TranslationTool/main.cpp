@@ -24,7 +24,7 @@ int main(int argc, char **argv)
 	}
 	else
 	{
-		for (int file = 0; file < argc; file++)
+		for (int file = 0; file < argc - 1; file++)
 		{
 			tt.addFile(argv[file + 1]);
 		}
