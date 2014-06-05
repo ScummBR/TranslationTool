@@ -18,6 +18,7 @@ int main(int argc, char **argv)
 		cout << endl;
 		cout << '\t' << "Saida: 0.txt, 1.txt, 2.txt, ...";
 		cout << endl;
+		cout << endl;
 		cout << "Juntar linhas em arquivo:" << endl;
 		cout << endl;
 		cout << '\t' << "Entrada: TranslationTool.exe <fonte>*" << endl;
